@@ -1,66 +1,43 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<head>
+    <title>Daniela Torres López</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="software, engineer, cv, automotive, lighting, videogames">
+    <meta name="description" content="Site with my platforms">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
 <body>
-<!-- Barra -->
-<nav class="w3-bar w3-black"> <!-- Color de la barra -->
-<a href="#inicio" class="w3-button w3-bar-item"> Inicio </a>
-<a href="#contacto" class="w3-button w3-bar-item"> Contacto </a>
-</nav>
+    <div class="container">
+        <div class="avatar">
+            <img src="images/avatar.png" alt="profile pic." />
+        </div>
 
-<!-- Acerca de mi -->
-<section class="w3-container w3-center w3-content" style="max-width:600px">
-	<h2 class=w3-wide> Daniela Torres López </h2>
-	<p class="w3-opacity"><i> Amo los videojuegos </i></p>
-	<p class="w3-justify"> 
-    Uno desde mis grandes hobbies desde que tengo memoria es el jugar videojuegos. 
-    Sus historias, sus mecánicas, la manera en la que aprendí con ellos han formado parte de mi vida. 
-    Solo he tenido 3 trabajos, actualmente sigo en el ultimo de la lista. </p>
-    <ul>
-	<li> Representante de ventas en Autozone </li>
-    <li> Auxiliar General de cafetería indrustrial en Bosch</li>
-    <li> Prácticante "Semilla" en Automotive Lighting </li>
-	</ul>
-</section>
+        <div class="description">
+            <h1>Hi, I'm Daniela Torres Lópezz</h1>
+            <p>I am a <b>Software Engineer Student</b> currently working in Automotive Lighting.</p>
+            <h2>You can find me in the following <b>platforms</b>:</h2>
+            <ul>
+                <li><b>GitHub</b>: <a href="https://github.com/AIphard">Alphard</a></li>
+                <li><b>LinkedIn</b>: <a href="https://www.linkedin.com/in/daniela-torres-l%C3%B3pez-b88644146/">Daniela Torres López</a></li>
+                <li><b>Twitter</b>: <a href="https://twitter.com/CapnDANY">@CapnDANY</a></li>
+            </ul>
 
-<!-- Fotos -->
-<section>
-        <img class="misFotos" src="untitled.png" width=100% height="auto">
-        <img class="misFotos" src="Awesome-Wallpapers-120.jpg" width=100% height="auto">
-        <img class="misFotos" src="desert_cactus_sun_127193_1600x900.jpg" width=100% height="auto">
-    </section>
+            <h2>I like <b>videogames</b>. These are the ones I often play with my friends.</h2>
+            <ul>
+                <li><a href="https://www.epicgames.com/fortnite/en-US/home">Fortnite</a></li>
+                <li><a href="https://playoverwatch.com/es-es/">Overwatch</a></li>
+                <li><a href="https://www.pubg.com/">Player Unknow's Battlegrounds</a></li>
+                <li><a href="https://fallout.bethesda.net/buy-now">FallOut 76</a></li>
+            </ul>
 
-<!-- Pie de página -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-        <a href="https://www.facebook.com/Alphard.Cor.Hydrae"><i class="fa fa-facebook-official"></i></a>
-        <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-flickr"></i></a>
-        <a href="https://www.linkedin.com/in/daniela-torres-l%C3%B3pez-b88644146/"><i class="fa fa-linkedin"></i></a>
-</footer>
-
-
-<!-- Cambio de imagenes de manera automática -->
-<script>
-var index = 0;
-slides();
-
-function slides(){
-	var i;
-	var x = document.getElementsByClassName("misFotos");
-	for (i = 0; i < x.length; i++){
-		x[i].style.display = "none";
-	}
-	index++;
-	if(index > x.length){index=1}
-	x[index-1].style.display="block";
-	setTimeout(slides,3000);
-}
-</script>
-
-
+            <p class="credits">Credits: This wonderful avatar of myself was made by <a href="https://twitter.com/oneeyedman">@oneeyedman</a>.</p>
+        </div>
+    </div>
 </body>
+
 </html>
